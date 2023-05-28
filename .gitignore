@@ -1,0 +1,12 @@
+datasets/Cifar/batches.meta
+datasets/Cifar/data_batch_1
+datasets/Cifar/data_batch_2
+datasets/Cifar/data_batch_3
+datasets/Cifar/data_batch_4
+datasets/Cifar/data_batch_5
+datasets/Cifar/cifar-10-python.tar.gz
+datasets/Cifar/test_batch
+HW1_Haghbin_810101326.zip
+Report.docx
+*/__pycache__
+__pycache__

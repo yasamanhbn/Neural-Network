@@ -1,0 +1,43 @@
+# Model hyperparameters
+learning_rate: 0.01
+batch_size: 64
+num_epochs: 50
+momentum: 0.9
+const_function: MSE
+input_type: Normalized
+activation: ReLu
+mean: 0
+std: 0
+Bias: 0
+hidden_layers: [4, 8, 12]
+gamma: 0.001
+W_init: Zero
+lr_schedule: True
+
+# Dataset parameters
+dataset:
+  path: F:\Master\Deep learning\HW\hw1\datasets\Cifar
+  num_classes: 10
+  train_split: 0.2
+
+# Regression hyperparameters
+# learning_rate: 0.001
+# batch_size: 32
+# num_epochs: 150
+# momentum: 0.9
+# const_function: Regression
+# input_type: Normalized
+# activation: ReLu
+# mean: 0
+# std: 1
+# Bias: 0
+# hidden_layers: [64]
+# gamma: 0
+# W_init: He
+# lr_schedule: 
+
+# # Dataset parameters
+# dataset:
+#   path: F:/Master/Deep learning/HW/hw1/datasets/ParisHousing/ParisHousing.csv
+#   num_classes: 1
+#   train_split: 0.15
